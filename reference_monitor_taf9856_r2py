@@ -26,6 +26,11 @@ class ABFile():
     self.Afn = filename+'.a'
     self.Bfn = filename+'.b'
     
+    
+    # check to see if files A & B exist and if the
+    # if self.Afile in listfiles() 
+	#pass
+
 
     # make the files and add 'SE' to the readat file...
     if create:
